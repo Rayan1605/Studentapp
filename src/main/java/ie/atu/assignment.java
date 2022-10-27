@@ -11,33 +11,34 @@ public class assignment {
 
         System.out.println("Student 1 , please enter your name ");
         student1.setName(myinput.next());
-        System.out.println("");
+
         System.out.println("Now please enter your email");
         student1.setEmail(myinput.next());
-        System.out.println("");
+
         System.out.println("Last please enter your course");
         student1.setcourse(myinput.next());
 
-        System.out.println("");
+        System.out.print("\n");
         System.out.println(" David");
-     System.out.println(" please enter youe Email");
+
+     System.out.println(" please enter your Email");
         student2.setEmail(myinput.next());
-        System.out.println("");
+
         System.out.println("Please enter your course");
         student2.setcourse(myinput.next());
-        System.out.println("");
+        System.out.println("\n");
 
         System.out.println("Student 1, your information is  ");
         System.out.println(student1.getName());
         System.out.println(student1.getEmail());
         System.out.println(student1.getcourse());
 
-     System.out.println();
+     System.out.print("\n");
         System.out.println("Student 2, your information is  ");
         System.out.println(student2.getName());
         System.out.println(student2.getEmail());
         System.out.println(student2.getcourse());
-     System.out.println();
+     System.out.print("\n");
         System.out.println("Student 3, your information is  ");
         System.out.println(student3.getName());
         System.out.println(student3.getEmail());
